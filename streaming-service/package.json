@@ -1,0 +1,16 @@
+{
+  "name": "streaming-prices",
+  "version": "1.0.0",
+  "description": "Push JSON prices in real-time over websockets",
+  "main": "server.js",
+  "dependencies": {
+    "cors": "2.8.1",
+    "express": "3.21.2",
+    "socket.io": "1.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  }
+}
