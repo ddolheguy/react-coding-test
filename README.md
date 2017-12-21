@@ -12,6 +12,12 @@ Contains:
 * Sass support, just import your styles wherever you need them
 * eslint to keep your js readable
 
+## Prerequisites
+* A suitable IDE, ie WebStorm, VSCode etc
+* Ideally a cygwin, or bash terminal
+* Node, NPM
+* If you're on a windows platform, you will need to run the following command: ``npm install --global --production windows-build-tools`` (using a privileged command prompt)
+
 ## Run the service
 0. Open a new bash shell
 0. cd streaming-service
@@ -20,7 +26,7 @@ Contains:
 
 ## Run the app
 1. Open a new bash shell
-1. cd riskview-ui-test-onsite
+1. cd app
 1. ```npm install```
 1. ```npm run start```
 
@@ -29,7 +35,7 @@ Once running, if you want to hide the redux dev monitor: ```CTRL+H``` or move it
 
 ## Run the tests
 2. Open a new bash shell
-2. cd riskview-ui-test-onsite
+2. cd app
 2. ```npm run test_watch```
 
 ## Requirements
