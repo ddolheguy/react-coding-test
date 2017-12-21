@@ -20,7 +20,7 @@ Contains:
 
 ## Run the app
 1. Open a new bash shell
-1. cd riskview-ui-test-onsite
+1. cd app
 1. ```npm install```
 1. ```npm run start```
 
@@ -29,7 +29,7 @@ Once running, if you want to hide the redux dev monitor: ```CTRL+H``` or move it
 
 ## Run the tests
 2. Open a new bash shell
-2. cd riskview-ui-test-onsite
+2. cd app
 2. ```npm run test_watch```
 
 ## Requirements
