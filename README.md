@@ -12,6 +12,12 @@ Contains:
 * Sass support, just import your styles wherever you need them
 * eslint to keep your js readable
 
+## Prerequisites
+* A suitable IDE, ie WebStorm, VSCode etc
+* Ideally a cygwin, or bash terminal
+* Node, NPM
+* If you're on a windows platform, you will need to run the following command: ``npm install --global --production windows-build-tools`` (using a privileged command prompt)
+
 ## Run the service
 0. Open a new bash shell
 0. cd streaming-service
